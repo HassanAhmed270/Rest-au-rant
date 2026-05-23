@@ -19,8 +19,8 @@ const Footer = () => {
           {/* Brand Section - Enhanced */}
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center gap-3 mb-6 group">
-              <div className="w-12 h-12 bg-gradient-to-br from-ember-600 to-ember-700 rounded-lg flex items-center justify-center text-2xl shadow-lg group-hover:shadow-ember-500/20 transition-all duration-300">
-                <img src={logo} alt="BBQ Nights Logo" className="w-7 h-7 object-contain" />
+              <div className="w-16 h-16 rounded-lg flex items-center justify-center text-2xl shadow-lg group-hover:shadow-ember-500/20 transition-all duration-300">
+                <img src={logo} alt="BBQ Nights Logo" className="w-16 h-16 object-contain" />
               </div>
               <div>
                 <span className="font-display text-xl font-bold bg-gradient-to-r from-white to-ember-400 bg-clip-text text-transparent block">BBQ Nights</span>

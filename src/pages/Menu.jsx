@@ -93,7 +93,8 @@ const Menu = () => {
           <div key={section.category} className="mb-20">
 
             {/* CATEGORY IMAGE + TITLE */}
-            <div className="relative rounded-[30px] overflow-hidden mb-10 h-[240px]">
+            <div className="relative rounded-[30px] overflow-hidden mb-10 h-[200px] sm:h-[240px]">
+
 
               <img
                 src={section.items[0]?.image}
