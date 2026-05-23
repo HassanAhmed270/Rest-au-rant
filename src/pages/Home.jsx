@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import SectionTitle from '../components/SectionTitle'
 import Button from '../components/Button'
-import heroBg from '../assets/heroBg.png'
+import herobg from '../assets/herobg.png'
 
 // BBQ assets
 import kababRoll from '../assets/kababroll.jpg'
@@ -121,7 +121,7 @@ const Home = () => {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
 
         <div className="absolute inset-0" style={{
-          backgroundImage: `url(${heroBg})`,
+          backgroundImage: `url(${herobg})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed',
